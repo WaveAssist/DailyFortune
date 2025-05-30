@@ -1,0 +1,22 @@
+name: Daily-Fortune
+description: AI-powered daily fortune generator that provides random fortunes at scheduled times.
+
+requirements:
+  - waveassist==1.0.0
+  - random==3.11.0
+
+nodes:
+  - id: choose_fortune
+    name: ChooseFortune
+    entrypoint: choose_fortune.py
+    schedule:
+      interval:
+        every: 1
+        period: day
+        at: "08:30"
+    starting_node: true
+
+  - id: log_fortune
+    name: LogFortune
+    entrypoint: log_fortune.py
+    run_after: [choose_fortune]
