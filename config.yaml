@@ -1,4 +1,4 @@
-name: Daily-Fortune
+name: DailyFortune
 description: AI-powered daily fortune generator that provides random fortunes at scheduled times.
 
 requirements:
