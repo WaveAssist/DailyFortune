@@ -54,7 +54,7 @@ ChooseFortune → LogFortune
 ### One‑Click Deploy (Recommended)
 
 <p align="center">
-  <a href="https://waveassist.io/templates/daily-fortune" target="_blank">
+  <a href="https://waveassist.io/templates/daily-fortune-template" target="_blank">
     <img src="https://waveassistapps.s3.us-east-1.amazonaws.com/public/Button.png" alt="Deploy on WaveAssist" width="230" />
   </a>
 </p>
@@ -70,8 +70,8 @@ ChooseFortune → LogFortune
 ### 🏠 Local Setup
 
 ```bash
-git clone https://github.com/WaveAssist/daily-fortune.git
-cd daily-fortune
+git clone https://github.com/WaveAssist/dailyfortune.git
+cd dailyfortune
 pip install waveassist
 ```
 
@@ -110,7 +110,7 @@ python log_fortune.py
 
 * WaveAssist docs: [waveassist.io/docs](https://waveassist.io/docs)
 * Community: [waveassist.io/community](https://waveassist.io/community)
-* Issues & feedback: [github.com/WaveAssist/daily-fortune/issues](https://github.com/WaveAssist/daily-fortune/issues)
+* Issues & feedback: [github.com/WaveAssist/dailyfortune/issues](https://github.com/WaveAssist/dailyfortune/issues)
 
 ---
 
