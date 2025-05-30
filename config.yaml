@@ -6,9 +6,9 @@ requirements:
   - random==3.11.0
 
 nodes:
-  - id: choose_fortune
+  - key: choose_fortune
     name: ChooseFortune
-    entrypoint: choose_fortune.py
+    file_name: choose_fortune.py
     schedule:
       interval:
         every: 1
@@ -16,7 +16,7 @@ nodes:
         at: "08:30"
     starting_node: true
 
-  - id: log_fortune
+  - key: log_fortune
     name: LogFortune
-    entrypoint: log_fortune.py
+    file_name: log_fortune.py
     run_after: [choose_fortune]
